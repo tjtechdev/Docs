@@ -568,34 +568,9 @@ TeleBot hoạt động song song với UI:
 
 ## 📝 Phụ Lục
 
-### A. Screenshot Placeholders
+ 
 
-**Cần thêm các screenshots sau vào `docs/img/`:**
-
-#### Main Interface:
-- `mainform-interface.png` - Giao diện chính
-- `status-bar.png` - Thanh trạng thái
-- `groups-list.png` - Danh sách groups
-- `activity-log.png` - Activity log
-- `start-monitoring.png` - Start monitoring
-- `stop-monitoring.png` - Stop monitoring
-
-#### TeleBot:
-- `telebot-overview.png` - Tổng quan TeleBot
-- `botfather-create.png` - Tạo bot với BotFather
-- `telebot-config.png` - Cấu hình TeleBot
-- `telebot-start.png` - Khởi động bot
-- `telebot-menu.png` - Menu chính
-- `telebot-start-monitoring.png` - Start qua bot
-- `telebot-stop-monitoring.png` - Stop qua bot
-- `telebot-status.png` - Xem status
-- `telebot-groups-list.png` - Danh sách groups
-- `telebot-group-detail.png` - Chi tiết group
-- `telebot-toggle-group.png` - Toggle group
-- `telebot-access-denied.png` - Access denied
-- `telebot-ui-sync.png` - UI synchronization
-
-### B. File Locations
+###   File Locations
 
 | File | Đường Dẫn |
 |------|-----------|
@@ -603,8 +578,7 @@ TeleBot hoạt động song song với UI:
 | Configuration | `C:\MonitorBot\appsettings.json` |
 | Contacts | `C:\MonitorBot\contacts.json` |
 | Session | `C:\MonitorBot\telegram_session.dat` |
-| Logs | `C:\MonitorBot\logs\` |
-| Screenshots | `docs\img\` |
+| Logs | `C:\MonitorBot\logs\` | 
 
 ---
 
@@ -805,19 +779,7 @@ Nếu cần đổi sang điện thoại khác:
 3. **Check USB Debugging:**
    - Settings → Developer Options
    - Verify "USB Debugging" đã bật ✅
-
-4. **Restart ADB:**
-   ```bash
-   adb kill-server
-   adb start-server
-   adb devices
-   ```
-
-5. **Thử Manual:**
-   - Run `adb devices` trong command prompt
-   - Copy serial number
-   - Paste vào Phone Settings dialog
-
+ 
 ---
 
 #### 8.8.2. Lỗi: "Unauthorized device"
@@ -840,8 +802,7 @@ Nếu cần đổi sang điện thoại khác:
    - Click để reset
    - Rút và cắm lại USB
    - Popup sẽ xuất hiện
-
-3. **Restart ADB và thử lại**
+ 
 
 ---
 
@@ -941,7 +902,7 @@ Phone Status: OFFLINE?
 │  └─→ YES → Check Authorization?
 │        ↓
 │ ├─→ NO → Allow on phone popup
-│        └─→ YES → Restart ADB → Contact Support
+│        └─→ YES → Contact Support
 │
 └─→ NO → Status: ONLINE ✅ → All good!
 ```
